@@ -1,0 +1,341 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Política de Privacidade – AppTrocaFigurinhas</title>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&display=swap" rel="stylesheet"/>
+  <style>
+    :root {
+      --bg: #090e0a;
+      --surface: #101810;
+      --border: #1a2e1a;
+      --text: #e8f5ec;
+      --text-muted: #7a9e82;
+      --green: #009739;
+      --green-dim: #006128;
+      --yellow: #FFDF00;
+      --yellow-dim: #b39b00;
+      --blue: #002776;
+      --blue-light: #3a5fc0;
+    }
+
+    * { box-sizing: border-box; margin: 0; padding: 0; }
+
+    body {
+      background: var(--bg);
+      color: var(--text);
+      font-family: 'Inter', sans-serif;
+      font-size: 15px;
+      line-height: 1.75;
+    }
+
+    .container {
+      max-width: 680px;
+      margin: 0 auto;
+      padding: 64px 24px 96px;
+    }
+
+    header {
+      margin-bottom: 56px;
+    }
+
+    .app-name {
+      display: flex;
+      align-items: center;
+      gap: 10px;
+      margin-bottom: 32px;
+    }
+
+    .app-icon {
+      width: 36px;
+      height: 36px;
+      background: linear-gradient(135deg, var(--green), var(--green-dim));
+      border-radius: 8px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      font-size: 18px;
+    }
+
+    .app-name strong {
+      font-size: 16px;
+      font-weight: 600;
+      color: var(--text);
+    }
+
+    h1 {
+      font-size: 26px;
+      font-weight: 600;
+      color: var(--text);
+      margin-bottom: 8px;
+    }
+
+    .date {
+      font-size: 13px;
+      color: var(--text-muted);
+      margin-bottom: 16px;
+    }
+
+    .intro {
+      color: var(--text-muted);
+    }
+
+    hr {
+      border: none;
+      border-top: 1px solid var(--border);
+      margin: 40px 0;
+    }
+
+    section {
+      margin-bottom: 40px;
+    }
+
+    h2 {
+      font-size: 15px;
+      font-weight: 600;
+      color: var(--yellow);
+      margin-bottom: 12px;
+    }
+
+    p {
+      color: var(--text-muted);
+      margin-bottom: 10px;
+    }
+
+    p:last-child { margin-bottom: 0; }
+
+    strong {
+      color: var(--text);
+      font-weight: 500;
+    }
+
+    ul {
+      list-style: none;
+      margin: 10px 0;
+      padding: 14px 18px;
+      background: var(--surface);
+      border-radius: 8px;
+      border: 1px solid var(--border);
+    }
+
+    ul li {
+      color: var(--text-muted);
+      padding: 5px 0;
+      display: flex;
+      align-items: center;
+      gap: 10px;
+    }
+
+    ul li::before {
+      content: '';
+      width: 5px;
+      height: 5px;
+      border-radius: 50%;
+      background: var(--green);
+      flex-shrink: 0;
+    }
+
+    .notice {
+      margin: 12px 0 0;
+      padding: 14px 18px;
+      background: rgba(0, 39, 118, 0.2);
+      border: 1px solid rgba(58, 95, 192, 0.25);
+      border-radius: 8px;
+    }
+
+    .notice p {
+      color: #8aaae8;
+      margin-bottom: 6px;
+      font-size: 14px;
+    }
+
+    .notice p:last-child { margin-bottom: 0; }
+
+    .notice ul {
+      background: transparent;
+      border: none;
+      padding: 4px 0;
+      margin: 0;
+    }
+
+    .notice ul li {
+      color: #8aaae8;
+      font-size: 14px;
+    }
+
+    .notice ul li::before {
+      background: var(--blue-light);
+    }
+
+    a {
+      color: var(--yellow);
+      text-decoration: none;
+    }
+
+    a:hover { text-decoration: underline; }
+
+    .contact-email {
+      display: inline-block;
+      margin-top: 12px;
+      padding: 10px 18px;
+      background: var(--surface);
+      border: 1px solid var(--border);
+      border-radius: 8px;
+      color: var(--text) !important;
+      font-size: 14px;
+      font-weight: 500;
+      text-decoration: none !important;
+      transition: border-color 0.2s;
+    }
+
+    .contact-email:hover {
+      border-color: var(--green);
+      text-decoration: none !important;
+    }
+
+    footer {
+      margin-top: 64px;
+      padding-top: 24px;
+      border-top: 1px solid var(--border);
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      flex-wrap: wrap;
+      gap: 8px;
+    }
+
+    .footer-left {
+      display: flex;
+      align-items: center;
+      gap: 8px;
+      font-size: 13px;
+      color: var(--text-muted);
+    }
+
+    .footer-right {
+      font-size: 12px;
+      color: var(--text-muted);
+    }
+
+    @media (max-width: 480px) {
+      .container { padding: 40px 20px 64px; }
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+
+    <header>
+      <div class="app-name">
+        <div class="app-icon">⚽</div>
+        <strong>AppTrocaFigurinhas</strong>
+      </div>
+      <h1>Política de Privacidade</h1>
+      <p class="date">Última atualização: Março de 2026</p>
+      <p class="intro">Bem-vindo ao AppTrocaFigurinhas! Sua privacidade é importante para nós. Este documento explica como coletamos, usamos e protegemos seus dados ao utilizar nosso aplicativo.</p>
+    </header>
+
+    <hr>
+
+    <section>
+      <h2>Sobre o App</h2>
+      <p>O AppTrocaFigurinhas tem como objetivo conectar pessoas interessadas em completar o álbum da Copa do Mundo de 2026.</p>
+      <p>Através do app, os usuários podem:</p>
+      <ul>
+        <li>Criar anúncios de figurinhas</li>
+        <li>Encontrar pessoas para troca (match)</li>
+        <li>Visualizar pontos de troca e venda no mapa</li>
+      </ul>
+    </section>
+
+    <section>
+      <h2>Autenticação</h2>
+      <p>Para utilizar o aplicativo, é necessário criar uma conta com:</p>
+      <ul>
+        <li>Email</li>
+        <li>Senha</li>
+      </ul>
+      <p style="margin-top: 12px;">Essas informações são utilizadas exclusivamente para autenticação e acesso à plataforma.</p>
+    </section>
+
+    <section>
+      <h2>Dados Coletados</h2>
+      <p>Coletamos os seguintes dados pessoais:</p>
+      <ul>
+        <li>Nome</li>
+        <li>Email</li>
+        <li>Senha</li>
+        <li>Telefone</li>
+      </ul>
+      <p style="margin-top: 12px;">Esses dados são necessários para:</p>
+      <ul>
+        <li>Identificação do usuário</li>
+        <li>Comunicação entre usuários</li>
+        <li>Funcionamento das funcionalidades do app</li>
+      </ul>
+    </section>
+
+    <section>
+      <h2>Armazenamento de Dados</h2>
+      <p>Seus dados são armazenados com segurança utilizando:</p>
+      <ul>
+        <li>Firebase Authentication (para login e autenticação)</li>
+        <li>Firebase Firestore (para armazenamento de dados)</li>
+      </ul>
+      <p style="margin-top: 12px;">Adotamos práticas adequadas para proteger suas informações contra acesso não autorizado.</p>
+    </section>
+
+    <section>
+      <h2>Uso de Localização</h2>
+      <p>O aplicativo utiliza sua localização atual apenas para:</p>
+      <ul>
+        <li>Exibir a quantidade de pessoas presentes em um ponto de troca no mapa</li>
+      </ul>
+      <div class="notice">
+        <p><strong style="color: #8aaae8;">Importante:</strong></p>
+        <ul>
+          <li>Sua localização não é compartilhada com outros usuários</li>
+          <li>Nenhum usuário consegue ver sua localização em tempo real</li>
+          <li>A localização é utilizada apenas de forma agregada (contador)</li>
+        </ul>
+      </div>
+    </section>
+
+    <section>
+      <h2>Compartilhamento de Dados</h2>
+      <p>Não vendemos, alugamos ou compartilhamos seus dados pessoais com terceiros, exceto quando necessário para:</p>
+      <ul>
+        <li>Cumprir obrigações legais</li>
+        <li>Garantir o funcionamento do aplicativo (ex: serviços do Firebase)</li>
+      </ul>
+    </section>
+
+    <section>
+      <h2>Segurança</h2>
+      <p>Adotamos medidas técnicas e organizacionais para proteger seus dados. No entanto, nenhum sistema é totalmente seguro, e recomendamos que você também proteja suas credenciais.</p>
+    </section>
+
+    <section>
+      <h2>Contato</h2>
+      <p>Se você tiver dúvidas sobre esta Política de Privacidade, entre em contato:</p>
+      <a class="contact-email" href="mailto:devs.salinhaa10@gmail.com">devs.salinhaa10@gmail.com</a>
+    </section>
+
+    <section>
+      <h2>Alterações nesta Política</h2>
+      <p>Podemos atualizar esta Política de Privacidade periodicamente. Recomendamos que você revise este documento regularmente.</p>
+      <p>Ao utilizar o AppTrocaFigurinhas, você concorda com os termos desta Política de Privacidade.</p>
+    </section>
+
+    <footer>
+      <div class="footer-left">
+        <span>⚽</span>
+        <span>AppTrocaFigurinhas</span>
+      </div>
+      <div class="footer-right">© 2026</div>
+    </footer>
+
+  </div>
+</body>
+</html>
